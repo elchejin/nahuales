@@ -1,0 +1,14 @@
+{
+  "name": "nahuales",
+  "version": "1.0.0",
+  "description": "Module to get the respective mayan sign of the tzolkin calendar of a gregorian date.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Zuleta, chejochuleta09@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "date-math": "0.0.1"
+  }
+}
