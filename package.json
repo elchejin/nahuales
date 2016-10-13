@@ -9,6 +9,7 @@
   "author": "Sergio Zuleta, chejochuleta09@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "date-math": "0.0.1"
+    "date-math": "0.0.1",
+    "vali-date": "^1.0.0"
   }
 }
