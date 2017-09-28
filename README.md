@@ -33,13 +33,6 @@ You can find more information about Tzolkin Calendar [here](https://en.wikipedia
 | Toj      | 6  | 13 | 7  | 1  | 8  | 2  | 9  | 3  | 10 | 4  | 11 | 5  | 12 |
 | Tz'i'    | 7  | 1  | 8  | 2  | 9  | 3  | 10 | 4  | 11 | 5  | 12 | 6  | 13 |
 
-
-:
-
-```javascript
-{ day: 1, nahual: 'B\'atz\'' }
-```
-
 ### Usage
 
 ```
