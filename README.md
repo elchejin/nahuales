@@ -1,4 +1,6 @@
 # Nahuales
+[![Build Status](https://travis-ci.org/omarvides/nahuales.svg?branch=improvements)](https://travis-ci.org/omarvides/nahuales)
+
 
 ### Module to get the respective Mayan sign of the Tzolkin calendar of a gregorian calendar date.
 
