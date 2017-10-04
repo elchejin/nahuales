@@ -1,15 +1,27 @@
 {
   "name": "nahuales",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Module to get the respective mayan sign of the tzolkin calendar of a gregorian date.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/mocha/bin/mocha --recursive tests"
   },
   "author": "Sergio Zuleta, chejochuleta09@gmail.com",
+  "contributors": [
+    "Walter Vides, omarvides@gmail.com"
+  ],
   "license": "ISC",
   "dependencies": {
     "date-math": "0.0.1",
     "vali-date": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.4.0",
+    "mocha": "^3.5.3"
   }
 }
