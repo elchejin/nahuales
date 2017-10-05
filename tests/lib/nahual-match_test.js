@@ -3,6 +3,12 @@ const nahualMatch = require('../../lib/nahual-match');
 
 describe('nahual-match', () => {
   describe('.nahualMatcher', () => {
+    it('should return nahualMatcher as an object', () => {
+      const date = new Date('1987-01-20');
+      const newNahual = nahualMatch.nahualMatcher(date);
+      newNahual.should.be.a('object');
+    });
+
     it('should return nahual as a string', () => {
       const date = new Date('1987-01-20');
       const newNahual = nahualMatch.nahualMatcher(date);
